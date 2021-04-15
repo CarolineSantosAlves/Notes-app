@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
+body{
+    background-color: #ffffff;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+h1{
+    color: #d1a38b;
+}
+
+button{
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 0px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    
+}
+
+span{
+    font-size: 18px;
+    padding: 10px 10px;
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: #6b705c;
+}
+.break{
+    flex-basis: 100%;
+    height: 0;
+}
+#btnNovaNota{
+    color: #ffffff;
+    background-color: #ce7b5a;
+    font-size: 20px;
+    padding: 12px 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+/*contem todas as informações da nota*/
+.BoxNote{
+    width: 300px;
+    height: 300px;
+    background-color: #f5d3ad;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+/*botão editar da nota*/
+.editar{
+    height: 30px;
+   
+
+}
+/*botão excluir da nota*/
+.excluir{
+    height: 30px;
+    color: #e76f51;
+    font-weight: bold;
+}
+
+/*botão salvar da nota*/
+.salvar{
+    height: 30px;
+    font-weight: bold;
+}
+/*espaço da nota*/
+.nota{
+   text-align: center;
+   width: 200px;
+   height: 180px;
+   overflow: scroll;
+}
+
+
+/*nota quando já em html, não é possivel editar*/
+.contentSave{
+    background-color: azure;
+}
+
+
+
+.contentEdit{
+   visibility: hidden;
+   position: absolute; 
+   left: -999px;
+}
+
+
