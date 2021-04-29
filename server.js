@@ -10,6 +10,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.static(__dirname + '/public'));
 
 app.use(routes);
-app.listen(3000, function(){
-    console.log('servidor rodando na porta 3000')
+const port = process.env.PORT || 3000 
+app.listen(port, function(){
+    console.log('Servidor rodando na porta 3000');
 })
