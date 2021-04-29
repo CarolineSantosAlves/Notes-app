@@ -14,7 +14,7 @@ router.get('/', function(req, res){
 
 router.post('/', (req, res) =>{
     let text = marked(req.body.htmlText);
-    console.log(text);
+    
     
     return res.json(text)
 })
