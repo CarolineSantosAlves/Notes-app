@@ -2,7 +2,7 @@
 # Notes App
 ## Cria e amarzena notas
 
-[![Ao Vivo](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://codepen.io/CarolSantosAlves/pen/Baprqeq)
+[![Ao Vivo](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)]()
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
